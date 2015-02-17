@@ -3,8 +3,9 @@
 import urllib 
 from optparse import OptionParser
 import sys,os
-cek = 0 
+
 def main(url=None,x=1,y=1,formatFile=None):
+    cek = 0 
     filenya = None 
     if url == None or formatFile == None :
 	sys.exit()
